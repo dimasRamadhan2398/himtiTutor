@@ -44,63 +44,32 @@ body {
 
 
 
-.semester {
-	margin-top: 20px;
+.row {
+	margin-top: 30px;
 }
 
-.span-semester {
-	color: #9E9E9E;
+.first {
+	margin-top: 80px;
 }
 
-hr {
-	margin-top: 5px;
+.last {
+	margin-bottom: 80px;
 }
 
-
-
-.container-picture {
-  position: relative;
-  margin: 5px 0;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #ECEFF1;
-  overflow: hidden;
-  width: 100%;
-  height: 30%;
-  transition: .5s ease;
-  opacity: 0.9;
-}
-
-.container-picture:hover .overlay {
-  height: 100%;
-}
-
-.text {
-  color: black;
-  font-size: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.row-class {
-	padding:  10px 0;
-	background-color: white;
+.col-md-5 {
+	padding: 20px 20px;
 	-webkit-box-shadow: 0 7px 6px -6px #999;
-  -moz-box-shadow: 0 7px 6px -6px #999;
-  box-shadow: 0 7px 6px -6px #999;
+	-moz-box-shadow: 0 7px 6px -6px #999;
+	box-shadow: 0 7px 6px -6px #999;
+	background-color: white;
+}
+
+.col-md-5 iframe {
+	margin-top: 10px;
+}
+
+.col-md-5 label {
+	font-family: 'OpenSans-SemiBold';
+	color: #0091EA;
+	font-size: 16pt;
 }

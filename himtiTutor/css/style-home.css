@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-image: url("../images/material-background.jpg");
+}
+
+.header {
+	margin-top: 9%;
+}
+
+h1 {
+	font-family: 'OpenSans-SemiBold';
+	font-size: 45pt;
+	color: #0091EA;
+	margin-top: 8px;
+	margin-right: 7px;
+}
+
+.span-h1 {
+	font-family: 'OpenSans-Regular';
+	font-size: 45pt;
+	color: #B0BEC5;
+	margin-left: 7px;
+}
+
+hr {
+	background-color: #CFD8DC;
+}
+
+p {
+	font-family: 'OpenSans-Regular';
+	font-size: 11pt;
+	color: #546E7A;
+}
+
+.btn {
+	background-color: #0091EA;
+	font-family: 'OpenSans-Regular';
+	font-size: 20px;
+	color: white;
+	padding: 8px 25px;
+	box-shadow: 0px 3px 7px grey;
+	margin-bottom: 9%;
+}
+
+.btn:hover {
+	box-shadow: 0px 2px 2px grey;
+}
+
+.back-to {
+	color: #546E7A;
+	padding-bottom: 20px;
+}
+
+.back-to:hover {
+	color: #37474F;
+	text-decoration: none;
+	transition: 0.5s;
+}

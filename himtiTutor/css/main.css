@@ -1,4 +1,9 @@
 @font-face {
-    font-family: 'OpenSans';
+    font-family: 'OpenSans-Regular';
     src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('../fonts/OpenSans-SemiBold.ttf');
 }
